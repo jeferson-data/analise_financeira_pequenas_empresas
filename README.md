@@ -20,3 +20,4 @@ Este projeto é um dashboard interativo desenvolvido com [Streamlit](https://str
 - Kaleido
 
 ## 📁 Estrutura do projeto
+analise_financeira_pequenas_empresas/ ├── dashboard/ │   └── app.py ├── requisitos/ │   └── requirements.txt ├── imagens/  ← gerada automaticamente └── README.md
