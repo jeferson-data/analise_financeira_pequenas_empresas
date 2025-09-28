@@ -29,5 +29,16 @@ analise_financeira_pequenas_empresas/
 ← gerada automaticamente 
 └── README.md
 
+**📌 Formato esperado do arquivo CSV:**
+
+O arquivo deve conter as seguintes colunas:
+- `Data`: data da transação (formato DD/MM/AAAA ou AAAA-MM-DD)
+- `Tipo`: "Receita" ou "Despesa"
+- `Categoria`: nome da categoria (ex: Vendas, Aluguel, Marketing)
+- `Valor`: valor numérico da transação
+
+Se o arquivo estiver com nomes diferentes, o sistema tentará ajustar automaticamente.
+""")
+
 
 [🔗 Acesse o dashboard online](https://tveywjbwbtcy7cwtdjf4zd.streamlit.app/)
