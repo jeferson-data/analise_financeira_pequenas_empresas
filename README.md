@@ -28,3 +28,6 @@ analise_financeira_pequenas_empresas/
 ── imagens/  
 ← gerada automaticamente 
 └── README.md
+
+
+[🔗 Acesse o dashboard online](https://tveywjbwbtcy7cwtdjf4zd.streamlit.app/)
