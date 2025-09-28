@@ -1,0 +1,11 @@
+Data,Tipo,Categoria,Descrição,Valor
+2025-01-05,Receita,Vendas,"Venda de produto A",1500.00
+2025-01-10,Despesa,Marketing,"Campanha Instagram",300.00
+2025-01-12,Despesa,Operacional,"Compra de embalagens",120.00
+2025-01-15,Receita,Vendas,"Venda de produto B",1800.00
+2025-01-18,Despesa,Logística,"Frete para cliente",90.00
+2025-01-20,Receita,Serviços,"Consultoria prestada",950.00
+2025-01-22,Despesa,Financeiro,"Tarifa bancária",35.00
+2025-01-25,Despesa,Pessoal,"Pagamento de funcionário",2000.00
+2025-01-28,Receita,Vendas,"Venda de produto C",2100.00
+2025-01-30,Despesa,Marketing,"Anúncio Google Ads",400.00
