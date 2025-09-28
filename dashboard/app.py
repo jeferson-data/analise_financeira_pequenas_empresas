@@ -16,6 +16,15 @@ if arquivo:
     else:
         df = pd.read_excel(arquivo)
 
+    # Padronizar nomes de colunas (caso venham em minúsculas ou com espaços)
+    df.columns = [col.strip().capitalize() for col in df.columns] 
+    
+    # Verificação de campos essenciais
+    campos_necessarios = ["Data", "Tipo", "Categoria", "Valor"]
+    if not all(campo in df.columns for campo in campos_necessarios):
+        st.error("❌ O arquivo está incompleto ou com nomes de colunas incorretos. Verifique se contém: Data, Tipo, Categoria e Valor.")
+        st.stop()
+
     # Exibição dos dados
     st.subheader("📁 Dados Carregados")
     st.dataframe(df)
@@ -42,3 +51,4 @@ if arquivo:
     df_agrupado = df.groupby(["Data", "Tipo"])["Valor"].sum().reset_index()
     fig2 = px.line(df_agrupado, x="Data", y="Valor", color="Tipo", markers=True)
     st.plotly_chart(fig2, use_container_width=True)
+
